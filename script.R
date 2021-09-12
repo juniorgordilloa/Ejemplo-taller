@@ -1,22 +1,4 @@
-library(gt)
-library(htmltools)
-library(ggplot2)
-library(gapminder)
-library(dplyr)
-library(ggplot2)
-library(gifski)
-library(Rcpp)
-library(dplyr)
-library(gganimate)
-library(remotes)
-library(gtExtras)
-library(googleVis)
-library(readxl)
-library(plotly)
-library(xkcd)
 
-setwd("C:/Users/Usuario/Downloads")
-cor1<-read_excel("corrupcion.xlsx")
 cor<-cor1[-c(11:14),]
 cor<-cor[,-c(8)]
 cor<-cor[,-c(1:2)]
